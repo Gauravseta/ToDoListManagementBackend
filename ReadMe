@@ -1,0 +1,88 @@
+================================================Details of ToDoList Management backend Project===========================================
+
+*********** Project Description *************
+
+This ToDoList Management WebApp uses Angular 1,Angular Material, CSS3,Angular UI-Router.
+
+
+
+
+
+************************ BAckend Url ****************
+1.It is assumed that backend will run at "http://localhost:3000",hence same have been hardcoded in file '/app/js/services/dataServices.js'.
+2.Suppose you backendProject is deployed at different URL(including different port) then make sure "baseUrl" String Object is changed at location mentioned in comment 1.
+
+
+
+
+
+***************Steps to Deploy ********************************
+Note:Makesure my backendProject  is deployed locally before proceeding here.
+Note: This Project can be deployed: 
+	1. Using Node.
+
+
+*************** 1.  Steps to deploy using Node ******************
+
+Note: I assume that Node and NPM are installed on your machine,If not then install both and then follow below steps.
+
+1.Extract "ToDoListAppFrontEnd.zip",Go to directory "ToDoListAppFrontEnd".
+2.Inside the directory,following files and folder should be visible.
+   2.a.app folder
+   2.b.gulpfile.js
+   2.c.package.json.
+   2.d.screenshots folder
+3.If you are not at this hiererchy then make sure you are pointing at this level.
+4.Open the command window at this level.
+5.In command window run the following command "npm start".
+6.It will download all dependencies and automatically open the Chrome Browser pointing to webapp.
+
+Note: It is assumed that port "8081" is free while running this demo.If not then configure port available in "gulpfile.js"
+	by replacing "8081" by the port number which is free.Final String will look like. e.g. var port="8083"; or var port="8082"; .
+
+Note  :It is assumed that chrome browser is installed on machine,if not then install and follow above procedure. 
+
+Note:If above procedure fails due to restricted access to download via NPM then follow Tomcat method to deploy the project.
+
+
+
+
+
+
+
+
+
+
+************* Known Issues ********************************
+
+1.Given the Wireframe reference,best have been tried to fullfill minimum requirement to the best of understanding.
+2.Rather concentrating more on feature due to time restriction,UI has been somewhat improved in terms of look.
+3.Identation may not be proper due to IDE mismatch.Request to ignore at few, though atmost care is taken.
+
+
+
+
+
+
+
+
+
+**********************************UI portfolio link****************************************
+
+More UI and backend portfolio can be found at:
+https://gauravsetaportfolio.herokuapp.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
